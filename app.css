@@ -1,0 +1,132 @@
+*{
+  margin-top: 0;
+  margin-left: 0;
+}
+
+body{
+  font-family: Mukta,sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.hero{
+  background-color: #863ae8;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero h1,
+.hero p{
+  width: 75%;
+  max-width: 900px;
+  margin: 16px 0 ;
+}
+.hero hr{
+  width: 50%;
+  color: white;
+  margin: 32px 0;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: Bitter,serif;
+  font-weight: 500;
+  padding: 10px;
+}
+h1{
+  font-size: 80px;
+  letter-spacing: -1.5px;
+  font-weight: 400;
+  margin:0px;
+}
+h2 {
+  font-size: 50px;
+  letter-spacing: -0.5px;
+}
+h3{
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
+h4{
+  font-size: 30px;
+  letter-spacing: 0.25px;
+}
+h5{
+  font-size: 24px;
+  letter-spacing: 0.25px;
+}
+h6{
+  font-size: 20px;
+  letter-spacing: -0.5px;
+}
+.content{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px;
+}
+.content h3{
+  text-transform: capitalize;
+}
+.info{
+  text-align: center;
+  font-family: Bitter,serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+}
+.info span{
+  color: #e95400;
+}
+.headline{
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin: 40px 0;
+  font-size:16px ;
+}
+
+.quote{
+  font-style: italic;
+  font-size: 14px;
+  border-left:3px solid #e95400;
+  padding-left: 16px;
+  margin: 32px 0 32px 32px;
+}
+.quote cite{
+  display: block;
+  font-weight: block;
+  margin-left: 20px;
+}
+code{
+  color: #e95400;
+}
+footer{
+  background-color: #863ae8;
+  width: 100%;
+  position: absolute;
+  left:0;
+}
+footer ul{
+  list-style: none;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+  padding: 20px;
+}
+footer ul li{
+  display: inline;
+  padding: 0 16px;
+}
+footer li a{
+  text-decoration: none;
+  color: azure;
+}
+footer li a:hover {
+  text-decoration: none;
+  color: azure;
+  text-decoration: underline solid white;
+}
